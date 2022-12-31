@@ -1,0 +1,67 @@
+.container-person {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 85px;
+    border-radius: 5px;
+    background: #181818;
+}
+
+.content-person img {
+    border-radius: 500px;
+    width: 116px;
+    height: 116px;
+    margin-bottom: 35px;
+}
+
+.content-person h1 {
+    margin-bottom: 18px;
+}
+
+.content-person p {
+    color: #A5A5A5;
+}
+
+.content-person {
+    position: relative;
+}
+
+.vivo, .morto {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+    top: 25px;
+    left: 40px;
+    border-radius: 50px;
+}
+
+.vivo {
+    background: #35D11C;
+}
+
+.morto {
+    background: #D11C3D;
+}
+
+.container-gender {
+    margin-top: 102px;
+    background: #0C0C0C;
+    padding: 24px 108px;
+    border-radius: 5px;
+}
+
+.container-gender p {
+    color: #9E0B90;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
